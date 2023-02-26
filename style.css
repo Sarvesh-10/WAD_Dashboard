@@ -14,12 +14,26 @@
     column-gap: 1.5rem;
     overflow-wrap: break-word;
 }
-.body-card{
+.body_card{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     padding: 1.3rem;
 
+
+
+}
+
+.second_row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around   ;
+    row-gap : 1.5rem;
+    column-gap: 1.5rem;
+    overflow-wrap: break-word;
+    padding: 1.3rem;
+    
 }
 
 

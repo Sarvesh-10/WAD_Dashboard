@@ -9,12 +9,13 @@
     flex-direction: row;
     color: white;
     flex-wrap: wrap;
-    justify-content: space-around   ;
-    row-gap : 1.5rem;
+    justify-content: space-around;
+    row-gap: 1.5rem;
     column-gap: 1.5rem;
     overflow-wrap: break-word;
 }
-.body_card{
+
+.body_card {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -22,20 +23,31 @@
 
 
 
+
+
 }
 
-.second_row{
+.second_row {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around   ;
-    row-gap : 1.5rem;
+    justify-content: space-around;
+    row-gap: 1.5rem;
     column-gap: 1.5rem;
-    overflow-wrap: break-word;
-    padding: 1.3rem;
     
+    align-items: center;
+    padding: 1.3rem;
+
 }
 
+.stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 1.54rem;
+    column-gap: 1.5rem;
+    overflow-wrap: break-word;
+    padding-top: 1.3rem;
 
-
-
+}

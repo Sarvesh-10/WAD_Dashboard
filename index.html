@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-primary fixed">
+        <div class="container-fluid">
+            <!-- Container fluid :- Provides full width container, spanning the entire width of the viewport -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand">EASYFRUITVEG</a>
+            <div class="d-flex bg-body">
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">
+                            <i class="bi bi-search"></i>
+
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+
+    <div class="d-flex nav navbar-expand-lg">
+
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+            <div class="nav flex-column nav-pills bg-body-primary" id="v-pills-tab" role="tablist"
+                aria-orientation="vertical" style="height: 100vh;width: 15vw;">
+
+
+
+                <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-dashboard" role="tab"
+                    aria-controls="v-pills-dashboard" aria-selected="true">
+                    <span><i class="bi bi-speedometer2"></i></span>
+                    Dashboard</a>
+
+                <!--------------------------------------------------------------------------------------------->
+                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-orders" role="tab"
+                    aria-controls="v-pills-orders" aria-selected="false">
+                    <span><i class="bi bi-cart4"></i></span>
+                    Orders</a>
+                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-catalog" role="tab"
+                    aria-controls="v-pills-catalog" aria-selected="false"> <span><i
+                            class="bi bi-journal-text"></i></span> Catalog</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-customers" role="tab"
+                    aria-controls="v-pills-customers" aria-selected="false">
+                    <span><i class="bi bi-person-circle"></i></span>
+                    Customers</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-banner-details"
+                    role="tab" aria-controls="v-pills-customers" aria-selected="false">
+                    <span><i class="bi bi-postcard-fill"></i></span>
+                    Banner Details</a>
+                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-contact-details"
+                    role="tab" aria-controls="v-pills-customers" aria-selected="false">
+                    <span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-person-vcard-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm9 1.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4a.5.5 0 0 0-.5.5ZM9 8a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 0-1h-4A.5.5 0 0 0 9 8Zm1 2.5a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 0-1h-3a.5.5 0 0 0-.5.5Zm-1 2C9 10.567 7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 0 2 13h6.96c.026-.163.04-.33.04-.5ZM7 6a2 2 0 1 0-4 0 2 2 0 0 0 4 0Z" />
+                        </svg></span>
+                    Contact Details</a>
+
+            </div>
+
+        </div>
+        <div class="outerLeftBox container-fluid bg-body-secondary">
+            <div class="container-fluid d-flex justify-content-between" style="padding: 10px 10px 10px 10px;">
+                <span style="font-weight:500;">DASHBOARD</span>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Library</li>
+                    </ol>
+                </nav>
+
+
+            </div>
+
+            
+            <div class="cards">
+
+                <div class="card" style="width: 20rem;background-color: blueviolet;">
+                    <div class="card-body">
+                        <h5><i class="bi bi-box-seam-fill"></i></h5>
+                        <h6>Stock Total</h6>
+                        <h6>$150000</h6>
+                        <p class="card-text" style="padding-top: 1.1rem;color: white;">Increased by 60%</p>
+
+                    </div>
+                </div>
+                <div class="card" style="width: 20rem;background-color: blue;">
+                    <div class="card-body">
+                        <h5 class="card-title" style="height: fit-content;"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-database-fill" viewBox="0 0 16 16">
+                            <path d="M3.904 1.777C4.978 1.289 6.427 1 8 1s3.022.289 4.096.777C13.125 2.245 14 2.993 14 4s-.875 1.755-1.904 2.223C11.022 6.711 9.573 7 8 7s-3.022-.289-4.096-.777C2.875 5.755 2 5.007 2 4s.875-1.755 1.904-2.223Z"/>
+                            <path d="M2 6.161V7c0 1.007.875 1.755 1.904 2.223C4.978 9.71 6.427 10 8 10s3.022-.289 4.096-.777C13.125 8.755 14 8.007 14 7v-.839c-.457.432-1.004.751-1.49.972C11.278 7.693 9.682 8 8 8s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972Z"/>
+                            <path d="M2 9.161V10c0 1.007.875 1.755 1.904 2.223C4.978 12.711 6.427 13 8 13s3.022-.289 4.096-.777C13.125 11.755 14 11.007 14 10v-.839c-.457.432-1.004.751-1.49.972-1.232.56-2.828.867-4.51.867s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972Z"/>
+                            <path d="M2 12.161V13c0 1.007.875 1.755 1.904 2.223C4.978 15.711 6.427 16 8 16s3.022-.289 4.096-.777C13.125 14.755 14 14.007 14 13v-.839c-.457.432-1.004.751-1.49.972-1.232.56-2.828.867-4.51.867s-3.278-.307-4.51-.867c-.486-.22-1.033-.54-1.49-.972Z"/>
+                          </svg></h5>
+                        
+                        <h6 class="card-subtitle mb-2 text-muted">Total Profit</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 20rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="card-link">Card link</a>
+                        <a href="#" class="card-link">Another link</a>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

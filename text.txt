@@ -1,0 +1,3 @@
+I'm skilled in advanced flutter development & wireframing. I have been developing cross-platform apps for the last 2 years which I built using dart, flutter, firebase, and REST API. The blend of my design sense and debugging skills enables me to develop elegant, fluent, and robust apps. I'm comfortable using various tools (GitHub, android studio, Figma, etc), making API calls, and even applying encryption.
+I'll definitely vouch for my analytical and objective approach towards complex problem solving, which helped me from scoring 99.2 percentile in MHT-CET to developing cross-platform apps. At last, as an intern, I do realize that I won't always know everything, but I'll make sure that with my eager-to-learn mindset, I always fulfill what is expected of me.
+

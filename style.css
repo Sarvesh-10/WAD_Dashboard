@@ -1,0 +1,27 @@
+.outerLeftBox {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-around   ;
+    row-gap : 1.5rem;
+    column-gap: 1.5rem;
+    overflow-wrap: break-word;
+}
+.body-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1.3rem;
+
+}
+
+
+
+
